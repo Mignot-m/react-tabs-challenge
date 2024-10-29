@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  background-color: black; 
+  color: white; 
+  padding: 20px 20px 200px;
+  box-sizing: border-box;
+  text-align: center; 
+}
+
+.tabs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  width: 100%;
+  max-width: 880px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.tab {
+  flex-grow: 1; 
+  padding: 20px;
+  background-color: black; 
+  color: white; 
+  text-align: center; 
+  font-weight: lighter;
+}
+
+.tab.active {
+  background-color: #024d6c; 
+}
+
+.tab-content {
+  background-color: white; 
+  color: black; 
+  padding: 20px 40px;
+  text-align: left; 
+  width: 100%;
+  max-width: 800px; 
+  margin: 0 auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
